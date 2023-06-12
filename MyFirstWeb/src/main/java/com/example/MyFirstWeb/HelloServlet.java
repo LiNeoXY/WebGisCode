@@ -22,6 +22,7 @@ public class HelloServlet extends HttpServlet {
         out.println("</body></html>");
     }
 
+    //释放类
     public void destroy() {
     }
 }
