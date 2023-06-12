@@ -8,6 +8,7 @@ import javax.servlet.annotation.*;
 public class HelloServlet extends HttpServlet {
     private String message;
 
+    //初始化类
     public void init() {
         message = "Hello World!";
     }
@@ -21,7 +22,7 @@ public class HelloServlet extends HttpServlet {
         out.println("<h1>" + message + "</h1>");
         out.println("</body></html>");
     }
-
+    
     //释放类
     public void destroy() {
     }
