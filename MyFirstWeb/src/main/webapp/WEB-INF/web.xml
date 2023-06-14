@@ -11,6 +11,15 @@
         <servlet-name>ServletLife</servlet-name>
         <servlet-class>com.example.MyFirstWeb.neo.ServletLife</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>MethodServlet</servlet-name>
+        <servlet-class>com.example.MyFirstWeb.neo.MethodServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MethodServlet</servlet-name>
+        <url-pattern>/method</url-pattern>
+    </servlet-mapping>
+
     <servlet-mapping>
         <servlet-name>myservlet</servlet-name>
         <url-pattern>/firstweb</url-pattern>
