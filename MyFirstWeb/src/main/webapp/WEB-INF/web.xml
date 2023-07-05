@@ -28,4 +28,14 @@
         <servlet-name>ServletLife</servlet-name>
         <url-pattern>/servletLife</url-pattern>
     </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>myservlet1</servlet-name>
+        <url-pattern>/myservlet1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>myservlet1</servlet-name>
+        <servlet-class>com.example.MyFirstWeb.neo.ServletLife</servlet-class>
+    </servlet>
+
 </web-app>
